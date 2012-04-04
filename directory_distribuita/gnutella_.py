@@ -1,4 +1,3 @@
-
 import socket
 import sys
 import hashlib
@@ -45,6 +44,7 @@ class PEER(object):
         self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         self.sock.connect(self.addr)
         #end of open_socket method
+        #ciao
 
 
     def sockread(self, socket, numToRead):
